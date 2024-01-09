@@ -10,26 +10,25 @@ function App() {
       </div>
     </div>
 
-    <Container className="container">
+    <div className="container-fluid no-padding">
       <div className="row justify-content-center utama-info-panel">  
-        <div className="col-lg-4 col-md-12 col-ms-12 mt-3 fw-light about-up mr-3">
-          <h4>Hello Everyone It's me</h4>
+        <div className="col-lg-4 col-md-12 col-xs-12 mt-3 fw-light about-up mr-3">
+          <h4>Hello Everyone 👋 It's me</h4>
             <p className="about">You can call me Toni, I am a person who is quite enthusiastic in developing web technology. The technology chosen must be able to solve the problem.</p>
         </div>
-        <div className="col-lg-3 col-md-12 col-ms-12 info-panel">
-          <div className="row">
+        <div className="col-lg-3 col-md-9 col-xs-9 info-panel">
             <div className="col-lg fw-light">
               <Image src="img/profile.JPG" className="mt-3" rounded />
               <h4>Tri Yuli Pahtoni</h4>
               <p>Web Developer Enthusiast</p>
             </div>
-          </div>
         </div>
-        <div className="col-lg-4 col-md-12 col-ms-12 mt-3 about-und">
+        <div className="col-lg-4 col-md-12 col-sm-12 mt-3 about-und">
             <p className="fw-light">I have currently developed the web using several technologies, such as Laravel, Codeigniter, Node.js and React.js. Currently I am studying and working at the Information and Communication Technology Center, Yogyakarta State University.</p>
         </div>
       </div>
-    </Container>
+      </div>
+
     <Navbar expand="lg" bg="primary">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -56,12 +55,12 @@ function App() {
       </div>
       <div className="col-lg-12 fw-light mr-3">
         <div className="row">
-          <div className="col-lg-12 font-works">
+          <div className="col-lg-12 font-works fade-in">
             <Image src="img/profile.JPG" className="rounded works float-start mr-5" alt="..." />
             <h4>Nama Website</h4>
               <p>Penjelasan webiste</p>
           </div>
-          <div className="col-lg-12 mt-5 text-end font-works">
+          <div className="col-lg-12 mt-5 text-end font-works fade-in">
             <Image src="img/profile.JPG" className="rounded works float-end" alt="..." />
             <h4>Nama Website</h4>
               <p>Penjelasan webiste</p>

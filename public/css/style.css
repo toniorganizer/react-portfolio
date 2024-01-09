@@ -1,28 +1,30 @@
 /*jumbotron*/
-.jumbotron{
-	background-image: url(../img/bgnew.jpg);
-	background-size: cover;
-	height: 340px;
+.jumbotron {
     width: 100%;
-	text-align: center;
-}
-
-.jumbotron::after{
-	content: '';
-	display: block;
-	width: 100%;
-	height: 240px;
-	position: absolute;
-	background-image: linear-gradient(to top, rgba(95, 56, 185, 0.9), rgba(75, 74, 74, 0));
-	/* bottom: 280px; */
+    height: 340px; /* Sesuaikan dengan kebutuhan */
+    display: block;
+    background-image: url(../img/bgnew.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Tergantung pada kebutuhan desain */
+  }
+  
+  .jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(95, 56, 185, 0.9), rgba(75, 74, 74, 0));
     top: 100px;
     z-index: 0;
-}
-
-.jumbotron .container{
-	position: relative;
-	z-index: 1;
-}
+  }
+  
+  .jumbotron .container {
+    position: relative;
+    z-index: 1;
+  }
 
 /* Info panel */
 .utama-info-panel{
@@ -38,6 +40,8 @@
     text-align: center;
     position: relative;
     z-index: 1;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
 }
 
 .info-panel img {
@@ -62,8 +66,10 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .jumbotron{
-        height: 340px;
+        overflow: hidden;
         width: 100%;
+        height: auto;
+        display: block;
     }
     .container {
         width: 100%;
@@ -75,7 +81,7 @@
         margin-top: 10px !important;
     }
     .works{
-        width: 200px;
+        width: auto;
         height: 190px !important;
     }
     .font-works h4{
@@ -83,6 +89,16 @@
     }
     .font-works p{
         font-size: 14px;
+    }
+    .fade-in{
+        opacity: 0;
+        /* transition: opacity 0.8s; */
+        transform: translateY(20px);
+        transition: opacity 0.7s ease-in, transform 0.7s ease-in;
+    }
+    .fade-in.visible{
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
@@ -99,13 +115,18 @@
     }
     .info-panel{
         margin-top: 10px !important;
+        max-width: fit-content;
     }
+    .no-padding {
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+      }
     .utama-info-panel{
         margin: 5px;
     }
     .works{
-        width: 110px;
-        height: 100px !important;
+        width: auto;
+        height: 120px !important;
     }
     .font-works h4{
         font-size: 18px;
@@ -116,6 +137,16 @@
     .social-media h4{
         margin-right: 0px !important;
     }
+    .fade-in{
+        opacity: 0;
+        /* transition: opacity 0.8s; */
+        transform: translateY(20px);
+        transition: opacity 0.7s ease-in, transform 0.7s ease-in;
+    }
+    .fade-in.visible{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .navigasi nav{
@@ -124,12 +155,10 @@
 
 .about-up p{
     text-align: justify;
-    margin-right: 20px;
 }
 
 .about-und p{
     text-align: justify;
-    margin-left: 20px;
 }
 
 .social-media h4{
@@ -149,6 +178,16 @@
 
 .works:hover{
     transform: scale(1.05);
+}
+.fade-in{
+    opacity: 0;
+    /* transition: opacity 0.8s; */
+    transform: translateY(20px);
+    transition: opacity 0.7s ease-in, transform 0.7s ease-in;
+}
+.fade-in.visible{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .footer p{
