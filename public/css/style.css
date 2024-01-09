@@ -64,6 +64,8 @@
 	font-size: 15px;
 }
 
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .jumbotron{
         overflow: hidden;
@@ -79,10 +81,6 @@
     }
     .info-panel{
         margin-top: 10px !important;
-    }
-    .works{
-        width: auto;
-        height: 190px !important;
     }
     .font-works h4{
         font-size: 18px;
@@ -124,14 +122,12 @@
     .utama-info-panel{
         margin: 5px;
     }
-    .works{
-        width: auto;
-        height: 120px !important;
-    }
     .font-works h4{
+        margin-top: auto;
         font-size: 18px;
     }
     .font-works p{
+        margin-top: auto;
         font-size: 14px;
     }
     .social-media h4{
@@ -169,10 +165,17 @@
     margin-top: 10px;
 }
 
+.image-wrapper{
+    box-sizing: content-box;
+    width: auto !important;
+    height: 300px;
+    overflow: hidden; 
+}
+
 .works{
-    height: 250px;
-    margin-right: 20px;
-    margin-left: 20px;
+    width: 100%; /* Gambar akan mengisi lebar wrapper */
+    height: auto; /* Memastikan gambar tetap proporsional */
+    display: block;
     transition: 0.5s;
 }
 

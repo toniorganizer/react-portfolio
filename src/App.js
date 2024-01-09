@@ -55,14 +55,18 @@ function App() {
       </div>
       <div className="col-lg-12 fw-light mr-3">
         <div className="row">
-          <div className="col-lg-12 font-works fade-in">
-            <Image src="img/profile.JPG" className="rounded works float-start mr-5" alt="..." />
-            <h4>Nama Website</h4>
-              <p>Penjelasan webiste</p>
+          <div className="col-lg-6 col-md-12 col-sm-12 font-works fade-in">
+            <div className="image-wrapper">
+              <Image src="img/work1.png" className="rounded works float-start mr-5" alt="..." />
+            </div>
+            <h4 className="mt-3">Sistem Informasi Pasar Kerja</h4>
+              <p>Sistem informasi ini dibuat untuk pemerintah provinsi Sumatera Barat. Sistem ini dibuat bertujuan untuk memberikan kemudahan bagi para pencari kerja dalam mendapatkan informasi lowongan. Selain itu sistem ini juga memiliki fitur untuk menglola data tren informasi pasar kerja yang dapat dilihat pada dashboard pemangku kepentingan.</p>
           </div>
-          <div className="col-lg-12 mt-5 text-end font-works fade-in">
-            <Image src="img/profile.JPG" className="rounded works float-end" alt="..." />
-            <h4>Nama Website</h4>
+          <div className="col-lg-6 col-md-12 col-sm-12 font-works fade-in">
+            <div className="image-wrapper">
+              <Image src="img/profile.JPG" className="rounded works" alt="..." />
+            </div>
+            <h4 className="mt-3">Nama Website</h4>
               <p>Penjelasan webiste</p>
           </div>
         </div>
