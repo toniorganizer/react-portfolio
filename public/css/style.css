@@ -182,16 +182,24 @@
 .works:hover{
     transform: scale(1.05);
 }
-.fade-in{
+.blog{
+    transition: 0.5s;
+}
+.blog:hover{
+    transform: scale(1.02);
+}
+
+.fade-blog {
     opacity: 0;
-    /* transition: opacity 0.8s; */
     transform: translateY(20px);
     transition: opacity 0.7s ease-in, transform 0.7s ease-in;
-}
-.fade-in.visible{
+  }
+  
+  .fade-blog.open {
     opacity: 1;
     transform: translateY(0);
-}
+  }
+  
 
 .footer p{
     font-size: 14px;
