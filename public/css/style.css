@@ -199,7 +199,15 @@
     opacity: 1;
     transform: translateY(0);
   }
+
+  .new-fade{
+    transition: all 3s ease;
+  }
   
+  .isi-blog{
+    text-align: justify;
+  }
+
 
 .footer p{
     font-size: 14px;

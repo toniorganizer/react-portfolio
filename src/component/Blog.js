@@ -34,11 +34,10 @@ const Blog = () => {
                   <Card.Img variant="top" src="img/work1.png" style={{ width: '100%', height: 'auto' }} />
                 </div>
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Sistem Informasi Pasar Kerja</Card.Title>
                   <div className="mb-2"><p><i className="bi bi-calendar4-week" style={{ marginRight: '10px' }}></i>10/01/2024</p></div>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                  <Card.Text className="isi-blog">
+                    Sistem informasi pasar kerja dirancang untuk memberikan kemudahan bagi para pencari kerja untuk mencari pekerjaan. Pekerjaan yang ditawarkan...
                   </Card.Text>
                 </Card.Body>
               </Card>

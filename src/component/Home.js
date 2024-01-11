@@ -61,14 +61,14 @@ const Home = () => {
               <Image src="img/work1.png" className="rounded works float-start mr-5" alt="..." />
             </div>
             <h4 className="mt-3">Sistem Informasi Pasar Kerja</h4>
-              <p>Sistem informasi ini dibuat untuk pemerintah provinsi Sumatera Barat. Sistem ini dibuat bertujuan untuk memberikan kemudahan bagi para pencari kerja dalam mendapatkan informasi lowongan. Selain itu sistem ini juga memiliki fitur untuk menglola data tren informasi pasar kerja yang dapat dilihat pada dashboard pemangku kepentingan.</p>
+              <p>Sistem informasi ini dibuat untuk pemerintah provinsi Sumatera Barat. Sistem ini dibuat bertujuan untuk memberikan kemudahan bagi para pencari kerja dalam mendapatkan informasi lowongan. Selain itu sistem ini juga memiliki fitur untuk menglola data tren informasi pasar kerja yang dapat dilihat pada dashboard pemangku kepentingan. Sistem ini dibuat menggunakan Laravel, MySQL, dan Bootstrap.</p>
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12 font-works fade-blog">
             <div className="image-wrapper">
               <Image src="img/work2.png" className="rounded works" alt="..." />
             </div>
             <h4 className="mt-3">Student Employee Pusat TIK UNY</h4>
-              <p>Website ini dibuat untuk proses seleksi student employee Pusat Teknologi Informasi dan Komunikasi Universitas Negeri Yogyakarta. Website ini berisi Image slider, About, dan pengelolaan data API yang sudah disediakan oleh panitia. Desain web ini menghantarkan menjadi Student Employee Tahun 2024.</p>
+              <p>Website ini dibuat untuk proses seleksi student employee Pusat Teknologi Informasi dan Komunikasi Universitas Negeri Yogyakarta. Website ini berisi Image slider, About, dan pengelolaan data API yang sudah disediakan oleh panitia. Desain web ini menghantarkan menjadi Student Employee Tahun 2024. Sistem ini dbuat menggunakan React JS dan React-Bootstrap.</p>
           </div>
         </div>
       </div>
